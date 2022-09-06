@@ -36,7 +36,7 @@ The results of the 6 machine learning models are described as follows:
 
 ### Combination (Over and Under) Sampling
 
-![](Resources/Combination_(Over_and_Under)_Sampling.png)
+![](Resources/Combination_(Over_and_Under)_sampling.png)
 
 * Balanced Accuracy Score: 64%
 * Precision: for high risk loans, the precision is low at 1% and high for low risk loans at 100%
