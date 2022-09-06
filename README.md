@@ -60,6 +60,8 @@ The results of the 6 machine learning models are described as follows:
 * Precision: for high risk loans, the precision is low at 7% and high for low risk loans at 100%
 * Recall: for high risk loans, the recall is 91% and for low risk loans at 94%
 
+## Summary
+Looking at the results of the six models, the EasyEnsembleClassifer model resulted with an accuracy of 93% and a precision of 7% for High Risk loans, the recall was also high with this model compared to the others with a rate of 91%. For the Low Risk loans, the recall was also high with a rate of 94%. Given the better results of this model compare to the others, it is recommended to use this model for making predictions of credit risk
 
 
 
