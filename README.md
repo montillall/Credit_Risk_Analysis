@@ -15,47 +15,65 @@ The results of the 6 machine learning models are described as follows:
 
 ![](Resources/Naive_Random_Oversampling.png)
 
-* Results of the multiple linear regression analysis, show that 2 variables, vehicle_length and ground_clearence, are unlikely to provide random amounts of variance to the linear model, based on the p-value resulting < 0.05% (assumed significant level). This means that these 2 variables have a significant impact on the linear model therefore on the prediction of the mpg for the MechaCar prototypes.
+* Balanced Accuracy Score: 62.4%
+* Precision: for high risk loans, the precision is low at 1% and high for low risk loans at 100%
+* Recall: for high risk loans, the recall is 57% and for low risk loans at 67%  
 
-* The p-value of the multiple linear regression analysis is 5.35 x 10-11, which is much smaller than the assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our model is not zero.
+#### SMOTE Oversampling
 
-* The R-squared of the model is 0.7149, which means that about 71% of the mpg (dependent variable) can be predicted by this linear model. Therefore, we can say that this model effectively predict the mpg of MechaCar prototypes
- 
-### Summary Statistics on Suspension Coils
+![](Resources/SMOTE_Oversampling.png)
 
-The total summary statistics of the suspension coil’s psi shows that for all manufacturing lots in total the design specification is met since the variance of the total data is 62.3 psi. See table below
+* Balanced Accuracy Score: 65%
+* Precision: for high risk loans, the precision is low at 1% and high for low risk loans at 100%
+* Recall: for high risk loans, the recall is 64% and for low risk loans at 65%
 
-![](Images/total_summary.png)
+#### Undersampling
 
-The summary statistics by manufacturing lots shows that Lot1 and Lot2 meet the design specification (variance < 100 psi) while Lot3 does not meet design specification, variance is 170.3 psi. 
+![](Resources/Undersampling.png)
 
-![](Images/lot_summary.png)
-
-### T-Tests on Suspension Coils
-
-The T-test across all manufacturing lots shows that there is no statistical difference with respect to the population mean, the p-value is greater than assumed significance level (0.05), therefore doesn't support to reject the null hypothesis. See results below
-
-![](Images/AllLots_Ttest.png)
-
-The T-tests run for each Lot shows that for Lot1 and Lot2, there is no statistical difference with respect to the population mean, p-values are greater than assumed significance level (0.05), therefore doesn't support to reject the null hypothesis. See results below
-
-![](Images/Lot1_Ttest.png)
-
-![](Images/Lot2_Ttest.png)
-
-On the other hand, for Lot3 the p-value (0.04168) is less than assumed significance level, which means there is statistical difference therefore supporting to reject the null hypothesis. See below
-
-![](Images/Lot3_Ttest.png)
+* Balanced Accuracy Score: 65%
+* Precision: for high risk loans, the precision is low at 1% and high for low risk loans at 100%
+* Recall: for high risk loans, the recall is 61% and for low risk loans at 45%
 
 
-## Study Design: MechaCar vs Competition
+#### Combination (Over and Under) Sampling
 
-There are many things that can be compare when purchasing a car, one of those that buyers should consider when comparing cars would be safety systems. In order to study MechaCars vs competitors, one safety system could be air bags activation in collision. 
+![](Resources/Combination_(Over_and_Under)_Sampling.png)
 
-Null Hypothesis: MechaCars average air bag activation is similar to competitor vehicles.
+* Balanced Accuracy Score: 64%
+* Precision: for high risk loans, the precision is low at 1% and high for low risk loans at 100%
+* Recall: for high risk loans, the recall is 70% and for low risk loans at 57%
 
-Alternative Hypothesis: MechaCars average air bag activation is significantly different than competitor vehicles.
 
-Statitstical test to use is two sample t-test
+#### Balanced Random Forest Classifier
 
-The data to collect would be mechaCar air bags tests and competitors actual data
+![](Resources/BalancedRandomForestClass.png)
+
+* Balanced Accuracy Score: 79%
+* Precision: for high risk loans, the precision is low at 4% and high for low risk loans at 100%
+* Recall: for high risk loans, the recall is 67% and for low risk loans at 91%
+
+
+#### Easy Ensemble AdaBoost Classifier
+
+![](Resources/EasyEnsembleClass.png)
+
+* Balanced Accuracy Score: 93%
+* Precision: for high risk loans, the precision is low at 7% and high for low risk loans at 100%
+* Recall: for high risk loans, the recall is 91% and for low risk loans at 94%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
