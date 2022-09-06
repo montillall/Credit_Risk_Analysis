@@ -9,9 +9,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ## Results
 The results of the 6 machine learning models are described as follows:
 
-### Oversampling
-
-#### Naive Random Ovesampling
+### Naive Random Ovesampling
 
 ![](Resources/Naive_Random_Oversampling.png)
 
@@ -19,7 +17,7 @@ The results of the 6 machine learning models are described as follows:
 * Precision: for high risk loans, the precision is low at 1% and high for low risk loans at 100%
 * Recall: for high risk loans, the recall is 57% and for low risk loans at 67%  
 
-#### SMOTE Oversampling
+### SMOTE Oversampling
 
 ![](Resources/SMOTE_Oversampling.png)
 
@@ -27,7 +25,7 @@ The results of the 6 machine learning models are described as follows:
 * Precision: for high risk loans, the precision is low at 1% and high for low risk loans at 100%
 * Recall: for high risk loans, the recall is 64% and for low risk loans at 65%
 
-#### Undersampling
+### Undersampling
 
 ![](Resources/Undersampling.png)
 
@@ -36,7 +34,7 @@ The results of the 6 machine learning models are described as follows:
 * Recall: for high risk loans, the recall is 61% and for low risk loans at 45%
 
 
-#### Combination (Over and Under) Sampling
+### Combination (Over and Under) Sampling
 
 ![](Resources/Combination_(Over_and_Under)_Sampling.png)
 
@@ -45,7 +43,7 @@ The results of the 6 machine learning models are described as follows:
 * Recall: for high risk loans, the recall is 70% and for low risk loans at 57%
 
 
-#### Balanced Random Forest Classifier
+### Balanced Random Forest Classifier
 
 ![](Resources/BalancedRandomForestClass.png)
 
@@ -54,7 +52,7 @@ The results of the 6 machine learning models are described as follows:
 * Recall: for high risk loans, the recall is 67% and for low risk loans at 91%
 
 
-#### Easy Ensemble AdaBoost Classifier
+### Easy Ensemble AdaBoost Classifier
 
 ![](Resources/EasyEnsembleClass.png)
 
