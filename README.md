@@ -13,7 +13,7 @@ The results of the 6 machine learning models are described as follows:
 
 #### Naive Random Ovesampling
 
-![](Images/MultipleLinearRegression.png)
+![](Resources/Naive_Random_Oversampling.png)
 
 * Results of the multiple linear regression analysis, show that 2 variables, vehicle_length and ground_clearence, are unlikely to provide random amounts of variance to the linear model, based on the p-value resulting < 0.05% (assumed significant level). This means that these 2 variables have a significant impact on the linear model therefore on the prediction of the mpg for the MechaCar prototypes.
 
